@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tooltip {
+    position: absolute;
+    background: #000;
+    color: #fff;
+    height: 30px;
+    pointer-events: none;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.graph {
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.counties {
+    fill: none;
+}
+
+.states {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+}
